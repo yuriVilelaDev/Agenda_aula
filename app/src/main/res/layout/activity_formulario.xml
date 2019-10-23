@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText android:hint="Nome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/formuçario_nome"/>
+
+        <EditText android:hint="Endereco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/formuçario_endereco"/>
+
+        <EditText android:hint="Telefone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/formuçario_telefone"/>
+
+        <EditText android:hint="Site"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/formuçario_site"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="salvar"
+            android:id="@+id/formuçario_salvar"/>
+    </LinearLayout>
+</ScrollView>
